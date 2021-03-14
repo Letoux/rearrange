@@ -1,6 +1,6 @@
 #!/bin/bash
 
-music_folder="Music"
+music_folder=$1
 
 if [ -d $music_folder ]
 then

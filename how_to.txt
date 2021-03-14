@@ -4,10 +4,10 @@ Be careful, it will not change the name of the .m4a, because no metadata is expl
 
 How to use rearrange!
 
-In order to us "rearrange", you should isolate the "music" forlder, which should be in "~/iPod_Control/".
+In order to us "rearrange", you can isolate the "music" forlder, which should be in "~/iPod_Control/".
 When you found it, put this folder in "~/" (at file's root).
 
-The, you just have to execute the "rearrange.sh" by doing: "./rearrange.sh".
+Then, you just have to execute the "rearrange.sh" with the "music" folder by doing: "./rearrange.sh ./path_to/music".
 
 If "rearrange" seems not to execute, verify the rights are correctly given to the file (should be "-rwxrwxrwx" when you execute an "ls -la" command).
 If not, use "chmod 755 rearrange.sh".
